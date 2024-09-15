@@ -1,0 +1,38 @@
+.parent-container{
+    height: 100vh;
+}
+
+.parts{
+    height: 100%;
+}
+
+.part1{
+    height: 100%;
+    width: 50%;
+    background: #73C8A9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #373B44, #73C8A9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #373B44, #73C8A9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.part2{
+    height: 100%;
+    width: 50%;
+    background: #556270;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF6B6B, #556270);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF6B6B, #556270); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.seprator-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+.seprator-text span{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 70px;
+    font-weight: bold;
+    text-shadow: rgba(255,251,0,1) 0px 0px 114px;
+}
