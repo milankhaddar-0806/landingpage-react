@@ -1,4 +1,3 @@
-import './App.css'
 import Home from './Components/Home.jsx'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
